@@ -23,6 +23,8 @@ else:
     print("Trend: No improvement across the year, and still below target.")
 
 # Visualization: line chart with benchmark
+# PR update to include .py file in changes
+
 plt.figure(figsize=(8, 5))
 plt.plot(quarters, efficiency, marker="o", label="Equipment Efficiency (2024)")
 plt.axhline(y=industry_target, linestyle="--", label="Industry Target (90)")
